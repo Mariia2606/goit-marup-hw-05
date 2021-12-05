@@ -30,7 +30,7 @@
         <nav>
           <ul class="header-navigation list">
             <li class="header-item">
-              <a class="header-link link current" href="">Студия</a>
+              <a class="header-link link current-acent" href="">Студия</a>
             </li>
             <li class="header-item">
               <a class="header-link link" href="./portfolio.html">Портфолио</a>
@@ -68,7 +68,7 @@
             Эффективные решения для вашего бизнеса
           </h1>
 
-          <button type="button" class="section-btn">Заказать услугу</button>
+          <button type="button" class="section-btn" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -399,5 +399,14 @@
   </div>
 </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="modal-close-icon" width="11" height="11">
+            <use href="./images/icons.svg#icon-Vector-2"></use>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
